@@ -15,5 +15,28 @@
         <input type="text" id="kategoria-nev">
         <button type="button" id="kategoria-hozzadas-btn">Kategória hozzáadása</button>
     </form>
+
+    <form action="index.html" method="POST">
+        <input type="number" id="tranz-ossz" value="Tranzakció összege">
+        <label for="tranz-type-select">
+            Válazd ki a tranzakció típusát:
+        </label>
+        <select id="tranz-type-select">
+            <option value="kiadás">
+                Kiadás
+            </option>
+            <option value="bevétel">
+                Bevétel
+            </option>
+        </select>
+        <input type="text" id="tranz-note" placeholder="Megjegyzés">
+        <label for="tranz-kateg-select">
+            Válaszd ki a kategóriát:
+        </label>
+
+        <select id="tranz-kateg-select"></select>
+        
+        <button type="button" id="tranz-hozzadas-btn">Kategória hozzáadása</button>
+    </form>
 </body>
 </html>
